@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Lưu điểm!"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="#f2bbbb"
+        android:textColor="#3705ff"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Họ Tên:"
+            android:textColor="@android:color/holo_green_light"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/editTen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.12"
+            android:ems="10"
+            android:hint="Nhập tên..."
+            android:inputType="textPersonName"
+            android:textColor="@android:color/holo_red_light"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+
+    <TextView
+        android:text="100 điểm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="#ff0000"
+        android:gravity="center"
+        android:id="@+id/txtDiemSo" />
+
+</LinearLayout>

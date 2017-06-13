@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Trang chủ" />
+    </group>
+
+    <item android:title="Chủ đề">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/montoan"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Môn Toán" />
+                <item
+                    android:id="@+id/monta"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Môn Tiếng Anh" />
+                <item
+                    android:id="@+id/timkiem"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="Tìm câu hỏi" />
+                <item
+                    android:id="@+id/xemdiem"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Xem Điểm" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
