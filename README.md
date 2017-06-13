@@ -9,8 +9,11 @@
 +) Có bộ đếm giờ khi thực hiện làm bài thi.
 
 +) Có chức năng kiểm tra sau khi làm bài thi:
+
     _ Hiển thị số câu đúng, sai, câu chưa trả lời.
+    
     _ Tính tổng điểm.
+    
     _ Lưu điểm với tên người làm bài.
     
 +) Hiển thị danh sách điểm người làm bài.
